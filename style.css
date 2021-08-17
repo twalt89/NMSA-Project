@@ -1,0 +1,129 @@
+
+body {
+font-family: -apple-system, 
+               BlinkMacSystemFont, 
+               "Segoe UI", 
+               Roboto, 
+               Helvetica,
+               Arial,
+               sans-serif,
+               "Apple Color Emoji",  /* Emojis*/
+               "Segoe UI Emoji", /* Emojis*/
+               "Segoe UI Symbol"; /* Emojis*/
+  background-color: White;
+  text-align:left;
+}
+
+
+/*Section Divider*/
+div{
+  border: none;
+  background-color: white;
+  padding-top: 1pt;
+  padding-left: 45pt;  
+  padding-right: 45pt;
+  padding-bottom: 0pt;
+}
+
+img{
+  padding-top:25pt;
+  width:70%;
+  height:auto;
+}
+
+/*Text Stylings*/
+h1 {
+  padding-top: 30pt;
+  padding-right: 60pt;
+  padding-left: 45pt;  
+  color:Black ;
+  font-size:25pt;
+  text-align: Left;
+  font-weight:700;
+}
+
+h2 {
+  padding-left: 45pt;  
+  font-size: 18px;
+  color:#818181;
+  text-align: Left;
+  font-weight:500;
+}
+
+
+/*Sub headings*/
+h3{
+  font-weight: Bold;
+  color:Black;
+  font-size: 16pt;
+  text-align:Left;
+}
+
+f1{
+
+  font-weight: normal;
+  color:Black;
+  font-size: 10pt;
+  text-align:Left;
+}
+
+
+
+/*paragraph styling*/
+
+p {
+
+  font-weight: normal;
+  color:black;
+  font-size: 12pt;
+  text-align:Left;
+  box-sizing:border-box;
+}
+
+p2{
+
+  font-weight: lighter;
+  color:#818181;
+  font-size: 11.5pt;
+  padding-top:11.5pt;
+  position:below;
+}
+
+/*Differnet paragraph stylings*/
+:root {
+  --first-color: black;
+  --second-color: #818181;
+}
+
+#firstParagraph {
+  font-size: 12pt;
+  color: var(--second-color);
+}
+
+
+/*Classes*/
+
+
+/* 3 image gallery*/
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 1px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+ 
+  
+}
+/*End of CSS */
