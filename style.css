@@ -38,14 +38,14 @@ h1 {
   padding-right: 60pt;
   padding-left: 45pt;  
   color:Black ;
-  font-size:25pt;
+  font-size:100pt;
   text-align: Left;
   font-weight:700;
 }
 
 h2 {
   padding-left: 45pt;  
-  font-size: 18px;
+  font-size: 22px;
   color:#818181;
   text-align: Left;
   font-weight:500;
@@ -56,7 +56,7 @@ h2 {
 h3{
   font-weight: Bold;
   color:Black;
-  font-size: 16pt;
+  font-size: 17pt;
   text-align:Left;
 }
 
@@ -76,7 +76,7 @@ p {
 
   font-weight: normal;
   color:black;
-  font-size: 12pt;
+  font-size: 17pt;
   text-align:Left;
   box-sizing:border-box;
 }
@@ -97,7 +97,7 @@ p2{
 }
 
 #firstParagraph {
-  font-size: 12pt;
+  font-size: 17pt;
   color: var(--second-color);
 }
 
